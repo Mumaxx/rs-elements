@@ -32,8 +32,8 @@ const Navbar = () => {
                 <img src={logoImg} alt="RS Elements Logo" style={{ height: '45px', width: 'auto' }} />
                 <span className="font-bold text-2xl gold-gradient" style={{ letterSpacing: '1px' }}>RS Elements</span>
             </div>
-            <div className="links" style={{ display: 'flex', gap: '30px' }}>
-                {['Sobre', 'Serviços', 'Portfólio', 'Contato'].map((item) => (
+            <div className="links" style={{ display: 'flex', gap: '30px', marginRight: '5%' }}>
+                {['Sobre', 'Serviços', 'Portfólio'].map((item) => (
                     <motion.a
                         key={item}
                         href={`#${item.toLowerCase()}`}
@@ -65,9 +65,6 @@ const Navbar = () => {
                     </motion.a>
                 ))}
             </div>
-            <a href="#contato" className="gold-btn" style={{ padding: '8px 20px', fontSize: '0.9rem' }}>
-                Fale Conosco
-            </a>
         </motion.nav>
     );
 };
