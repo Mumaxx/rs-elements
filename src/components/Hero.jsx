@@ -40,7 +40,9 @@ const Hero = () => {
                     </p>
                     <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap' }}>
                         <motion.a
-                            href="#contato"
+                            href="https://wa.me/5519991922432?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20come%C3%A7ar%20um%20projeto%20com%20a%20RS%20Elements."
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="gold-btn"
                             style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', justifyContent: 'center' }}
                         >

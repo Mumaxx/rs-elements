@@ -29,7 +29,7 @@ function App() {
         <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', margin: 0 }}>Feito por <a href="https://instagram.com/sc_sistemass" target="_blank" style={{ color: 'var(--gold)', fontWeight: 'bold', textDecoration: 'none' }}>@sc_sistemass</a></p>
         <div style={{ display: 'flex', gap: '25px', marginTop: '10px' }}>
           <a href="https://instagram.com" target="_blank" style={{ color: '#E4405F', textDecoration: 'none', fontSize: '0.95rem', fontWeight: 'bold' }}>Instagram</a>
-          <a href="https://wa.me/something" target="_blank" style={{ color: '#25D366', textDecoration: 'none', fontSize: '0.95rem', fontWeight: 'bold' }}>WhatsApp</a>
+          <a href="https://wa.me/5519991922432?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20RS%20Elements." target="_blank" style={{ color: '#25D366', textDecoration: 'none', fontSize: '0.95rem', fontWeight: 'bold' }}>WhatsApp</a>
         </div>
       </footer>
     </div>
